@@ -1,0 +1,37 @@
+.modal-content {
+  background-color: #270f3c !important;
+  color: #fff !important;
+  border: 2px solid #b72c6c !important;
+}
+
+.modal-card-header,
+.modal-card-details,
+.modal-card-instruction {
+  background-color: #1b082c;
+}
+
+.modal-card-header button {
+  cursor: initial !important;
+}
+
+.modal-card-header-content,
+.modal-card-details h4,
+.modal-card-instruction h4 {
+  color: #b72c6c;
+}
+
+.modal-card-details {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.modal-card-instruction-list {
+  list-style-type: none;
+}
+
+.instruction-number {
+  color: #bc80f2;
+  background-color: #270f3c;
+  border-radius: 50%;
+  padding: 1px 6px;
+}

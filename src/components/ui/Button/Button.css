@@ -1,0 +1,43 @@
+.btnUI {
+  border-radius: 2rem;
+  padding: 0.2rem 0.8rem;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-wrap: nowrap;
+
+}
+
+.btnUIsm {
+  padding: 0.2rem;
+}
+
+.btnUIlg {
+  padding: 0.3rem 0.8rem;
+  font-size: 1.3rem;
+}
+
+.btnUIOne {
+  background-color: #b72c6c;
+  color: #280f3d;
+  max-width: 94%;
+}
+
+
+.btnUI:hover {
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+
+.btnUI:hover {
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.btnUIsm:hover {
+  letter-spacing: 1px;
+}

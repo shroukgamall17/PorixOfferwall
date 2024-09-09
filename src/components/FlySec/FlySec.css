@@ -1,0 +1,7 @@
+.flySec {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+  z-index: 100;
+  transform: translateX(50%);
+}

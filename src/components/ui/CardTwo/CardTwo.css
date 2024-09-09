@@ -1,0 +1,31 @@
+.card-two {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(19,4,33,0.9556197478991597) 2%,
+    rgba(232, 77, 77, 0.12088585434173671) 88%
+  );
+}
+
+.card-two-btn {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-35%);
+  z-index: 10;
+}

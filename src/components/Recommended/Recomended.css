@@ -1,0 +1,13 @@
+.swiper, .swiper-wrapper{
+  z-index: 0;
+}
+
+.swiper-scrollbar{
+    position: relative !important;
+    margin-top: 1.2rem;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #b72c6c;
+}
+

@@ -1,0 +1,46 @@
+.cardThree {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #b72c6c;
+  position: relative;
+  background-color: #280f3d;
+  border-bottom: 10px solid #b72c6c;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cardThree-title {
+  height: 70px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #b72c6c;
+  overflow: hidden;
+}
+
+.cardThree-img {
+  background-color: #280f3d;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 0.8rem;
+  border-bottom: 3px solid #b72c6c;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, 50%);
+}
+
+.cardThree-img img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #b72c6c;
+  border-radius: 50%;
+}
+
+.cardThree-content{
+  height: 100%;
+}

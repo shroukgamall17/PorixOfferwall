@@ -1,0 +1,12 @@
+.navbar {
+  backdrop-filter: blur(3px); 
+}
+.nav-link {
+  color: #b72c6c !important;
+  text-align: center;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #ffffff !important;
+  background-color: #b72c6c !important;
+}
